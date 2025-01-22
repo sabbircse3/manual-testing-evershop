@@ -1,0 +1,275 @@
+{
+	"id": "d317d7e0-6b81-4b5a-a73d-647facb9778a",
+	"name": "EverShop-Assingment",
+	"timestamp": "2024-11-15T17:08:08.327Z",
+	"collection_id": "39315045-95155fea-06ac-43fd-9dab-7b62398521c0",
+	"folder_id": 0,
+	"environment_id": "39315045-e8caf5f5-42be-4fe4-ad35-ddb723e9142f",
+	"totalPass": 13,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-15T17:08:02.146Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8af36780-6cc0-456f-86c6-8903784e6fcb",
+			"name": "SearchShoe",
+			"url": "https://demo.evershop.io/search?keyword=Nike react phantom run flyknit 2",
+			"time": 939,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Nike React Phantom Run Flyknit 2 is listed": true,
+				"Search shoes successfully with code is 200": true
+			},
+			"testPassFailCounts": {
+				"Nike React Phantom Run Flyknit 2 is listed": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search shoes successfully with code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				939
+			],
+			"allTests": [
+				{
+					"Nike React Phantom Run Flyknit 2 is listed": true,
+					"Search shoes successfully with code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7b8ad74c-f9f0-44e2-910b-fc7f22fc06a2",
+			"name": "shoeForCart",
+			"url": "https://demo.evershop.io/api/cart/mine/items",
+			"time": 288,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Shoe for cart successfully with code is 200": true,
+				"Product added successfully to cart": true
+			},
+			"testPassFailCounts": {
+				"Shoe for cart successfully with code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Product added successfully to cart": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				288
+			],
+			"allTests": [
+				{
+					"Shoe for cart successfully with code is 200": true,
+					"Product added successfully to cart": true
+				}
+			]
+		},
+		{
+			"id": "d70cd8be-8f9a-4b3e-b883-065effc3ffaa",
+			"name": "cartVerify",
+			"url": "https://demo.evershop.io/cart",
+			"time": 459,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Nike react phantom run flyknit 2 product is present in HTML body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Nike react phantom run flyknit 2 product is present in HTML body": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				459
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Nike react phantom run flyknit 2 product is present in HTML body": true
+				}
+			]
+		},
+		{
+			"id": "aa359b1a-4720-473a-9f81-26fd413500c4",
+			"name": "userInfo",
+			"url": "https://demo.evershop.io/api/carts/de504e91-2738-44d5-ae78-b6309ce4ed3e/contacts",
+			"time": 241,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Email exists in the response": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Email exists in the response": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				241
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Email exists in the response": true
+				}
+			]
+		},
+		{
+			"id": "f4fbf198-d53b-45e0-ab34-0fd65bc4e654",
+			"name": "address",
+			"url": "https://demo.evershop.io/api/carts/de504e91-2738-44d5-ae78-b6309ce4ed3e/addresses",
+			"time": 278,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains all required keys": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains all required keys": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				278
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains all required keys": true
+				}
+			]
+		},
+		{
+			"id": "c9705c46-c837-48d5-a931-839dd4760b65",
+			"name": "paymentMethod",
+			"url": "https://demo.evershop.io/api/carts/de504e91-2738-44d5-ae78-b6309ce4ed3e/paymentMethods",
+			"time": 240,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains correct payment 'code' and 'name' within 'method'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains correct payment 'code' and 'name' within 'method'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				240
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains correct payment 'code' and 'name' within 'method'": true
+				}
+			]
+		},
+		{
+			"id": "daf4ca94-0987-467b-9337-eb0c88d1c07e",
+			"name": "checkOut",
+			"url": "https://demo.evershop.io/checkout",
+			"time": 2128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2128
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4573,
+	"collection": {
+		"requests": [
+			{
+				"id": "8af36780-6cc0-456f-86c6-8903784e6fcb",
+				"method": "GET"
+			},
+			{
+				"id": "7b8ad74c-f9f0-44e2-910b-fc7f22fc06a2",
+				"method": "POST"
+			},
+			{
+				"id": "d70cd8be-8f9a-4b3e-b883-065effc3ffaa",
+				"method": "GET"
+			},
+			{
+				"id": "aa359b1a-4720-473a-9f81-26fd413500c4",
+				"method": "POST"
+			},
+			{
+				"id": "f4fbf198-d53b-45e0-ab34-0fd65bc4e654",
+				"method": "POST"
+			},
+			{
+				"id": "c9705c46-c837-48d5-a931-839dd4760b65",
+				"method": "POST"
+			},
+			{
+				"id": "daf4ca94-0987-467b-9337-eb0c88d1c07e",
+				"method": "GET"
+			}
+		]
+	}
+}
